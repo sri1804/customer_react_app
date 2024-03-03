@@ -1,0 +1,104 @@
+/* Table.css */
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: green;
+    color: white;
+  }
+  
+  td:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  td:nth-child(odd) {
+    background-color: white;
+  }
+  
+  .search-and-dropdown-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    padding-right: 255px; /* Adjust the right padding as needed */
+    margin-bottom: 0px;
+  }
+  
+  .dropdown-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align items to the right */
+    padding-left: 263px; /* Push the dropdown to the left */
+  }
+  
+  
+  .search-icon {
+    margin-right: 5px;
+  }
+  
+  input[type="text"] {
+    margin-right: 5px;
+    width: 150px;
+  }
+  
+  select:hover option {
+    background-color: green;
+    color: white;
+  }
+  
+  .bottom-controls {
+    display: flex;
+    padding-left: 537px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  
+  .active {
+    background-color: green;
+    color: white;
+  }
+  

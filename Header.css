@@ -1,0 +1,16 @@
+/* Header.css */
+.header-container {
+    text-align: center;
+  }
+  
+  .header-title {
+    margin-bottom: 10px; 
+    font-size: 24px; 
+  }
+  
+  .header-line {
+    width: 100%; 
+    border-bottom: 1px solid #ccc; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
